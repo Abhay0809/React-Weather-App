@@ -417,18 +417,21 @@ div#txt {
   }
   .dmy {
     padding-top: 25px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 736px) {
   .temperature p {
     font-size: 80px;
+    margin-bottom: 80px;
   }
   .dmy {
     padding-top: 10px;
   }
   div#txt {
     font-size: 30px;
+    margin-bottom: 80px;
   }
   .forecast-icon img {
     width: 110px;
@@ -473,7 +476,7 @@ div#txt {
     min-height: 300px;
   }
   .temperature {
-    text-align: right;
+    text-align: center;
   }
   .temperature p {
     font-size: 100px;
